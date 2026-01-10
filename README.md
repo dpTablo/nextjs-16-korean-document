@@ -20,23 +20,100 @@ Next.js 공식 문서의 한국어 번역입니다.
 11. [Route Handlers](./app-router/getting-started/11-route-handlers.md)
 12. [배포 (Deploying)](./app-router/getting-started/12-deploying.md)
 
-#### App Router - Guides (11개 핵심 문서)
+#### App Router - Guides (25개 핵심 문서)
 1. [Forms (폼 처리)](./app-router/guides/forms.md)
 2. [Authentication (인증)](./app-router/guides/authentication.md)
 3. [Environment Variables (환경 변수)](./app-router/guides/environment-variables.md)
 4. [Testing - Jest](./app-router/guides/testing-jest.md)
 5. [Testing - Playwright](./app-router/guides/testing-playwright.md)
 6. [Internationalization (국제화)](./app-router/guides/internationalization.md)
-7. [Caching (캐싱)](./app-router/guides/caching.md) 🆕
-8. [Self-Hosting (셀프 호스팅)](./app-router/guides/self-hosting.md) 🆕
-9. [Static Exports (정적 내보내기)](./app-router/guides/static-exports.md) 🆕
-10. [Debugging (디버깅)](./app-router/guides/debugging.md) 🆕
+7. [Caching (캐싱)](./app-router/guides/caching.md)
+8. [Self-Hosting (셀프 호스팅)](./app-router/guides/self-hosting.md)
+9. [Static Exports (정적 내보내기)](./app-router/guides/static-exports.md)
+10. [Debugging (디버깅)](./app-router/guides/debugging.md)
+11. [Data Fetching Patterns (데이터 페칭 패턴)](./app-router/guides/data-fetching-patterns.md)
+12. [Server Actions Patterns (Server Actions 패턴)](./app-router/guides/server-actions-patterns.md)
+13. [Rendering (렌더링 전략)](./app-router/guides/rendering.md)
+14. [Tailwind CSS v3 (Tailwind 스타일링)](./app-router/guides/tailwind-css.md)
+15. [Analytics (분석)](./app-router/guides/analytics.md)
+16. [Lazy Loading (지연 로딩)](./app-router/guides/lazy-loading.md)
+17. [MDX (마크다운 + JSX)](./app-router/guides/mdx.md)
+18. [Third Party Libraries (서드파티 라이브러리)](./app-router/guides/third-party-libraries.md)
+19. [Prefetching (프리페칭)](./app-router/guides/prefetching.md)
+20. [TypeScript (타입스크립트)](./app-router/guides/typescript.md)
+21. [Content Security Policy (보안 정책)](./app-router/guides/content-security-policy.md)
+22. [Draft Mode (초안 모드)](./app-router/guides/draft-mode.md) 🆕
+23. [OpenTelemetry (관찰성)](./app-router/guides/opentelemetry.md) 🆕
+24. [CSS-in-JS (CSS-in-JS 라이브러리)](./app-router/guides/css-in-js.md) 🆕
+25. [Sass (Sass 스타일링)](./app-router/guides/sass.md) 🆕
 
-#### App Router - API Reference (4개 핵심 문서)
+#### App Router - API Reference (54개 핵심 문서)
+
+**지시어 (2개):**
 1. [use client 지시어](./app-router/api-reference/use-client.md)
 2. [use server 지시어](./app-router/api-reference/use-server.md)
+
+**컴포넌트 (4개):**
 3. [Link 컴포넌트](./app-router/api-reference/link.md)
 4. [Image 컴포넌트](./app-router/api-reference/image.md)
+5. [Script 컴포넌트](./app-router/api-reference/components/script.md) - 스크립트 최적화
+6. [Font 최적화](./app-router/api-reference/components/font.md) - 폰트 최적화
+
+**함수 (25개):**
+7. [generateMetadata](./app-router/api-reference/functions/generateMetadata.md) - 동적 메타데이터 생성
+8. [generateStaticParams](./app-router/api-reference/functions/generateStaticParams.md) - 정적 경로 생성
+9. [redirect](./app-router/api-reference/functions/redirect.md) - 리디렉션
+10. [notFound](./app-router/api-reference/functions/notFound.md) - 404 페이지
+11. [cookies](./app-router/api-reference/functions/cookies.md) - 쿠키 처리
+12. [headers](./app-router/api-reference/functions/headers.md) - 헤더 처리
+13. [revalidatePath](./app-router/api-reference/functions/revalidatePath.md) - 경로 재검증
+14. [revalidateTag](./app-router/api-reference/functions/revalidateTag.md) - 태그 재검증
+15. [useRouter](./app-router/api-reference/functions/useRouter.md) - 클라이언트 라우팅
+16. [usePathname](./app-router/api-reference/functions/usePathname.md) - 현재 경로
+17. [useSearchParams](./app-router/api-reference/functions/useSearchParams.md) - 쿼리 파라미터
+18. [useParams](./app-router/api-reference/functions/useParams.md) - 동적 파라미터
+19. [useSelectedLayoutSegment](./app-router/api-reference/functions/useSelectedLayoutSegment.md) - 활성 세그먼트 🆕
+20. [permanentRedirect](./app-router/api-reference/functions/permanentRedirect.md) - 영구 리디렉션
+21. [draftMode](./app-router/api-reference/functions/draftMode.md) - 초안 모드
+22. [ImageResponse](./app-router/api-reference/functions/ImageResponse.md) - OG 이미지 생성 🆕
+23. [generateSitemaps](./app-router/api-reference/functions/generateSitemaps.md) - 사이트맵 생성 🆕
+
+**파일 규칙 (17개):**
+24. [page.js](./app-router/api-reference/file-conventions/page.md) - 페이지 파일
+25. [layout.js](./app-router/api-reference/file-conventions/layout.md) - 레이아웃 파일
+26. [template.js](./app-router/api-reference/file-conventions/template.md) - 템플릿 파일
+27. [loading.js](./app-router/api-reference/file-conventions/loading.md) - 로딩 UI
+28. [error.js](./app-router/api-reference/file-conventions/error.md) - 에러 처리
+29. [not-found.js](./app-router/api-reference/file-conventions/not-found.md) - 404 페이지
+30. [route.js](./app-router/api-reference/file-conventions/route.md) - API 라우트
+31. [middleware.js](./app-router/api-reference/file-conventions/middleware.md) - 미들웨어
+32. [default.js](./app-router/api-reference/file-conventions/default.md) - Parallel Routes 폴백
+33. [global-error.js](./app-router/api-reference/file-conventions/global-error.md) - 전역 오류
+34. [instrumentation.js](./app-router/api-reference/file-conventions/instrumentation.md) - 관찰성/모니터링
+35. [sitemap.xml](./app-router/api-reference/file-conventions/metadata/sitemap.md) - 사이트맵
+36. [robots.txt](./app-router/api-reference/file-conventions/metadata/robots.md) - robots.txt
+37. [opengraph-image](./app-router/api-reference/file-conventions/metadata/opengraph-image.md) - OG/Twitter 이미지
+38. [app-icons](./app-router/api-reference/file-conventions/metadata/app-icons.md) - favicon, icon, apple-icon
+39. [manifest.json](./app-router/api-reference/file-conventions/metadata/manifest.md) - PWA Manifest
+40. [route-segment-config](./app-router/api-reference/file-conventions/route-segment-config.md) - 라우트 세그먼트 설정 🆕
+
+**추가 함수 (11개):**
+41. [fetch](./app-router/api-reference/functions/fetch.md) - Next.js 확장 fetch API
+42. [NextRequest/NextResponse](./app-router/api-reference/functions/next-request-response.md) - 요청/응답 처리
+43. [unstable_cache](./app-router/api-reference/functions/unstable_cache.md) - 데이터 캐싱
+44. [generateViewport](./app-router/api-reference/functions/generateViewport.md) - 뷰포트 설정
+45. [useSelectedLayoutSegments](./app-router/api-reference/functions/useSelectedLayoutSegments.md) - 활성 세그먼트 배열
+46. [unstable_noStore](./app-router/api-reference/functions/unstable_noStore.md) - 정적 렌더링 옵트아웃 (Deprecated)
+47. [after](./app-router/api-reference/functions/after.md) - 응답 후 작업 실행
+48. [connection](./app-router/api-reference/functions/connection.md) - 동적 렌더링 강제
+49. [userAgent](./app-router/api-reference/functions/userAgent.md) - User Agent 파싱
+50. [generateImageMetadata](./app-router/api-reference/functions/generateImageMetadata.md) - 이미지 메타데이터 생성
+51. [useReportWebVitals](./app-router/api-reference/functions/useReportWebVitals.md) - Web Vitals 보고
+
+**React 19 Hooks (3개):**
+52. [useFormStatus](./app-router/api-reference/functions/react/useFormStatus.md) - 폼 제출 상태 🆕
+53. [useActionState](./app-router/api-reference/functions/react/useActionState.md) - 폼 action 상태 관리 🆕
+54. [useOptimistic](./app-router/api-reference/functions/react/useOptimistic.md) - 낙관적 UI 업데이트 🆕
 
 ---
 
@@ -45,14 +122,16 @@ Next.js 공식 문서의 한국어 번역입니다.
 | 섹션 | 진행률 | 문서 수 |
 |------|--------|---------|
 | **App Router - Getting Started** | ✅ 100% | 12/12 |
-| **App Router - Guides** | 🟡 ~28% | 11/40+ |
-| **App Router - API Reference** | 🟡 ~5% | 4/80+ |
+| **App Router - Guides** | 🟢 ~61% | 25/41 |
+| **App Router - API Reference** | 🟡 67.5% | 54/80+ |
 | **Pages Router** | ⬜ 0% | 0/60+ |
 | **Architecture** | ⬜ 0% | 0/4 |
 | **Community** | ⬜ 0% | 0/2 |
 
-**총 번역 완료:** 27개 문서 ⬆️
-**전체 문서:** 200개 이상
+**총 번역 완료:** 91개 문서 ⬆️ (약 45.5%)
+**전체 문서:** 약 200개
+
+📋 **상세 번역 상태:** [TRANSLATION_STATUS.md](./TRANSLATION_STATUS.md) 참조
 
 ---
 
@@ -72,10 +151,14 @@ Next.js 공식 문서의 한국어 번역입니다.
 - 국제화
 - 이미지/폰트 최적화
 - 주요 API (Link, Image, Directives)
-- **캐싱 전략 및 최적화** 🆕
-- **셀프 호스팅 및 배포** 🆕
-- **정적 사이트 생성** 🆕
-- **디버깅 및 문제 해결** 🆕
+- 캐싱 전략 및 최적화
+- 셀프 호스팅 및 배포
+- 정적 사이트 생성
+- 디버깅 및 문제 해결
+- 핵심 API 함수들 (메타데이터, 라우팅, 캐시 재검증)
+- Hook 함수들 (useRouter, usePathname, useSearchParams, useParams, useSelectedLayoutSegment)
+- 컴포넌트 최적화 (Script, Font)
+- **SEO 및 메타데이터 (사이트맵, robots.txt, OG 이미지)** 🆕
 
 ### 🚧 향후 번역 예정
 - 추가 Guides (Analytics, Caching, Production 등)
@@ -138,14 +221,36 @@ Next.js 공식 문서의 한국어 번역입니다.
 - [use client](./app-router/api-reference/use-client.md) - 클라이언트 컴포넌트
 - [use server](./app-router/api-reference/use-server.md) - 서버 함수
 
+**주요 함수:**
+- [generateMetadata](./app-router/api-reference/functions/generateMetadata.md) - 동적 메타데이터 생성
+- [generateStaticParams](./app-router/api-reference/functions/generateStaticParams.md) - 정적 경로 생성
+- [redirect](./app-router/api-reference/functions/redirect.md) - 리디렉션
+- [notFound](./app-router/api-reference/functions/notFound.md) - 404 페이지
+- [cookies](./app-router/api-reference/functions/cookies.md) - 쿠키 처리
+- [headers](./app-router/api-reference/functions/headers.md) - 헤더 처리
+- [revalidatePath](./app-router/api-reference/functions/revalidatePath.md) - 경로 재검증
+- [revalidateTag](./app-router/api-reference/functions/revalidateTag.md) - 태그 재검증
+
+**Hook 함수:** 🆕
+- [useRouter](./app-router/api-reference/functions/useRouter.md) - 클라이언트 라우팅
+- [usePathname](./app-router/api-reference/functions/usePathname.md) - 현재 경로
+- [useSearchParams](./app-router/api-reference/functions/useSearchParams.md) - 쿼리 파라미터
+- [useParams](./app-router/api-reference/functions/useParams.md) - 동적 파라미터
+- [permanentRedirect](./app-router/api-reference/functions/permanentRedirect.md) - 영구 리디렉션
+- [draftMode](./app-router/api-reference/functions/draftMode.md) - 초안 모드
+
+**최적화 컴포넌트:** 🆕
+- [Script](./app-router/api-reference/components/script.md) - 스크립트 최적화
+- [Font](./app-router/api-reference/components/font.md) - 폰트 최적화
+
 **주요 가이드:**
 - [Forms](./app-router/guides/forms.md) - 폼 및 Server Actions
 - [Authentication](./app-router/guides/authentication.md) - 인증 및 세션 관리
 - [Environment Variables](./app-router/guides/environment-variables.md) - 환경 변수 설정
-- [Caching](./app-router/guides/caching.md) - 캐싱 전략 및 성능 최적화 🆕
-- [Self-Hosting](./app-router/guides/self-hosting.md) - 셀프 호스팅 가이드 🆕
-- [Static Exports](./app-router/guides/static-exports.md) - 정적 사이트 생성 🆕
-- [Debugging](./app-router/guides/debugging.md) - 디버깅 도구 및 방법 🆕
+- [Caching](./app-router/guides/caching.md) - 캐싱 전략 및 성능 최적화
+- [Self-Hosting](./app-router/guides/self-hosting.md) - 셀프 호스팅 가이드
+- [Static Exports](./app-router/guides/static-exports.md) - 정적 사이트 생성
+- [Debugging](./app-router/guides/debugging.md) - 디버깅 도구 및 방법
 
 ---
 
@@ -200,6 +305,6 @@ Next.js 공식 문서의 한국어 번역입니다.
 
 ---
 
-**마지막 업데이트:** 2025-01-09
+**마지막 업데이트:** 2026-01-11
 **번역 버전:** Next.js 16.1.1
-**번역 완료:** Phase 2 완료 - 총 27개 핵심 문서 ✅
+**번역 완료:** Phase 14 완료 - 총 91개 핵심 문서 ✅
