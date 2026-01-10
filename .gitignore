@@ -1,0 +1,73 @@
+# .gitignore — Markdown 문서 프로젝트 기본 템플릿
+# 필요에 따라 프로젝트별 빌드 폴더나 추가 항목을 여기에 추가하세요.
+
+# 운영체제
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 에디터 / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 에디터 임시 파일
+*~
+*.swp
+*.swo
+
+# Node / 패키지 매니저
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 빌드 출력 / 정적 사이트 생성기
+.next/
+out/
+dist/
+build/
+.vite/
+.vitepress/dist/
+.vitepress/cache/
+.vuepress/dist/
+.nuxt/
+.cache/
+
+# 로그
+*.log
+
+# 환경 변수 / 비밀
+.env
+.env.*.local
+.env.local
+.local.env
+secrets/
+credentials/
+*.key
+*.pem
+*.crt
+
+# 테스트 / 커버리지
+coverage/
+coverage-final.json
+.nyc_output/
+
+# Python 관련 (문서 변환 툴을 파이썬으로 쓰는 경우 대비)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 아카이브 / 압축 파일
+*.zip
+*.tar.gz
+*.tgz
+
+# 기타: 사용자 필요에 따라 제외/포함
+# - 만약 특정 정적 자산(예: images/, public/)을 버전관리 하지 않으려면 해당 경로를 추가하세요.
+# - 빌드 도구(예: mkdocs, hugo, docsify 등)의 출력 디렉터리를 사용 중이면 위의 출력 항목을 조정하세요.
+
