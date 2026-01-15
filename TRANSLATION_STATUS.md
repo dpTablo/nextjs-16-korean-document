@@ -2,7 +2,7 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 91개 / 약 200개 문서 (약 45.5%)
+**총 번역 완료:** 103개 / 약 200개 문서 (약 51.5%)
 
 ---
 
@@ -25,7 +25,7 @@
 - [x] Route Handlers (라우트 핸들러)
 - [x] Deploying (배포)
 
-### 2. App Router - Guides (25/41 - 약 61%)
+### 2. App Router - Guides (37/41 - 약 90%)
 
 주요 가이드 문서가 번역되었습니다.
 
@@ -56,25 +56,31 @@
 - [x] CSS-in-JS 🆕
 - [x] Sass 🆕
 
-**❌ 미완료 (약 16개):**
-- [ ] CI Build Caching
-- [ ] Custom Server
+**✅ 추가 완료 (4개):**
+- [x] ISR (Incremental Static Regeneration) 🆕
+- [x] PWAs (Progressive Web Applications) 🆕
+- [x] Redirecting 🆕
+- [x] Scripts 🆕
+
+**✅ 추가 완료 (4개 - Phase 16):**
+- [x] JSON-LD (SEO) 🆕
+- [x] SPAs (Single-Page Applications) 🆕
+- [x] Custom Server 🆕
+- [x] Package Bundling 🆕
+
+**✅ 추가 완료 (4개 - Phase 17):**
+- [x] Videos 🆕
+- [x] Memory Usage 🆕
+- [x] CI Build Caching 🆕
+- [x] Multi-zones 🆕
+
+**❌ 미완료 (약 7개):**
 - [ ] Data Security
-- [ ] ISR (Incremental Static Regeneration)
-- [ ] JSON-LD (SEO)
 - [ ] Development Environment
 - [ ] Next.js MCP Server
-- [ ] Memory Usage
 - [ ] Migrating
 - [ ] Multi-tenant
-- [ ] Multi-zones
-- [ ] Package Bundling
-- [ ] PWAs (Progressive Web Applications)
-- [ ] Redirecting
-- [ ] Scripts
-- [ ] SPAs (Single-Page Applications)
 - [ ] Upgrading (Version 16)
-- [ ] Videos
 - [ ] Backend for Frontend
 
 ### 3. App Router - API Reference (54/80+ - 67.5%)
@@ -386,6 +392,6 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 14 완료 (91개 핵심 문서)
-**다음 목표:** Phase 15 - 추가 Guides (ISR, PWAs, Redirecting 등) 및 next.config.js
+**현재 상태:** Phase 17 완료 (103개 핵심 문서)
+**다음 목표:** Phase 18 - 나머지 Guides 및 next.config.js 옵션
 **최종 목표:** 모든 App Router 문서 번역 완료 (약 120개)
