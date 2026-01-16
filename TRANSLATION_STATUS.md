@@ -2,7 +2,7 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 117개 / 약 200개 문서 (약 58.5%)
+**총 번역 완료:** 123개 / 약 200개 문서 (약 61.5%)
 
 ---
 
@@ -83,14 +83,14 @@
 - [x] Upgrading (업그레이드 - codemods, version-16 포함) 🆕
 - [x] Backend for Frontend 🆕
 
-### 3. App Router - API Reference (54/80+ - 67.5%)
+### 3. App Router - API Reference (60/80+ - 75%)
 
 **✅ 완료:**
 
-**지시어 (2/4):**
+**지시어 (3/4):**
 - [x] use client
 - [x] use server
-- [ ] use cache ❌
+- [x] use cache ✅
 - [ ] use strict ❌
 
 **컴포넌트 (4/10+):**
@@ -136,12 +136,10 @@
 - [x] useActionState ✅
 - [x] useOptimistic ✅
 
-**미완료 함수 (약 5개):**
-- [ ] ImageResponse (이미 완료되어 있으나 목록에서 누락)
-- [ ] generateSitemaps (이미 완료되어 있으나 목록에서 누락)
-- [ ] unstable_rethrow
-- [ ] forbidden
-- [ ] unauthorized
+**추가 완료 함수 (3개 - Phase 19):**
+- [x] forbidden ✅
+- [x] unauthorized ✅
+- [x] unstable_rethrow ✅
 
 **파일 규칙 (17/20+):**
 - [x] page.js
@@ -164,21 +162,27 @@
 - [ ] metadata files (기타) ❌
 - [ ] next.config.js ❌
 
-**next.config.js 옵션 (0/50+):**
-- [ ] appDir
-- [ ] assetPrefix
+**next.config.js 옵션 (2/50+):**
+- [x] images ✅
+- [x] redirects ✅
+- [ ] rewrites
+- [ ] headers
+- [ ] env
+- [ ] typescript
+- [ ] reactStrictMode
+- [ ] serverActions
+- [ ] transpilePackages
 - [ ] basePath
+- [ ] assetPrefix
+- [ ] appDir
 - [ ] compress
 - [ ] devIndicators
 - [ ] distDir
-- [ ] env
 - [ ] eslint
 - [ ] exportPathMap
 - [ ] generateBuildId
 - [ ] generateEtags
-- [ ] headers
 - [ ] httpAgentOptions
-- [ ] images
 - [ ] incrementalCacheHandlerPath
 - [ ] logging
 - [ ] onDemandEntries
@@ -187,14 +191,9 @@
 - [ ] pageExtensions
 - [ ] poweredByHeader
 - [ ] productionBrowserSourceMaps
-- [ ] reactStrictMode
-- [ ] redirects
-- [ ] rewrites
 - [ ] serverComponentsExternalPackages
 - [ ] trailingSlash
-- [ ] transpilePackages
 - [ ] turbo
-- [ ] typescript
 - [ ] urlImports
 - [ ] webpack
 - [ ] webVitalsAttribution
@@ -392,10 +391,11 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 18 완료 (117개 핵심 문서)
-**이번 Phase 18 성과:**
-- Guides 섹션 100% 완료! (44/44)
-- 새로 번역된 문서: Data Security, Local Development, MCP Server, Migrating(3개), Multi-tenant, Upgrading(3개), Backend for Frontend
+**현재 상태:** Phase 19 완료 (123개 핵심 문서)
+**이번 Phase 19 성과:**
+- use cache 지시어 번역 완료 ✅
+- 추가 함수 3개 번역 완료 (forbidden, unauthorized, unstable_rethrow) ✅
+- next.config.js 옵션 2개 번역 완료 (images, redirects) ✅
 
-**다음 목표:** Phase 19 - next.config.js 옵션 및 추가 API Reference
-**최종 목표:** 모든 App Router 문서 번역 완료 (약 130개)
+**다음 목표:** Phase 20 - next.config.js 나머지 주요 옵션 (rewrites, headers, env, typescript 등)
+**최종 목표:** 모든 App Router 문서 번역 완료 (약 150개)

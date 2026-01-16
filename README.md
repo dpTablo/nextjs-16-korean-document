@@ -97,7 +97,7 @@ Next.js 공식 문서의 한국어 번역입니다.
 39. [manifest.json](./app-router/api-reference/file-conventions/metadata/manifest.md) - PWA Manifest
 40. [route-segment-config](./app-router/api-reference/file-conventions/route-segment-config.md) - 라우트 세그먼트 설정 🆕
 
-**추가 함수 (11개):**
+**추가 함수 (14개):**
 41. [fetch](./app-router/api-reference/functions/fetch.md) - Next.js 확장 fetch API
 42. [NextRequest/NextResponse](./app-router/api-reference/functions/next-request-response.md) - 요청/응답 처리
 43. [unstable_cache](./app-router/api-reference/functions/unstable_cache.md) - 데이터 캐싱
@@ -109,11 +109,18 @@ Next.js 공식 문서의 한국어 번역입니다.
 49. [userAgent](./app-router/api-reference/functions/userAgent.md) - User Agent 파싱
 50. [generateImageMetadata](./app-router/api-reference/functions/generateImageMetadata.md) - 이미지 메타데이터 생성
 51. [useReportWebVitals](./app-router/api-reference/functions/useReportWebVitals.md) - Web Vitals 보고
+52. [forbidden](./app-router/api-reference/functions/forbidden.md) - 403 에러 응답 🆕
+53. [unauthorized](./app-router/api-reference/functions/unauthorized.md) - 401 에러 응답 🆕
+54. [unstable_rethrow](./app-router/api-reference/functions/unstable_rethrow.md) - Next.js 에러 재발생 🆕
 
 **React 19 Hooks (3개):**
-52. [useFormStatus](./app-router/api-reference/functions/react/useFormStatus.md) - 폼 제출 상태 🆕
-53. [useActionState](./app-router/api-reference/functions/react/useActionState.md) - 폼 action 상태 관리 🆕
-54. [useOptimistic](./app-router/api-reference/functions/react/useOptimistic.md) - 낙관적 UI 업데이트 🆕
+55. [useFormStatus](./app-router/api-reference/functions/react/useFormStatus.md) - 폼 제출 상태 🆕
+56. [useActionState](./app-router/api-reference/functions/react/useActionState.md) - 폼 action 상태 관리 🆕
+57. [useOptimistic](./app-router/api-reference/functions/react/useOptimistic.md) - 낙관적 UI 업데이트 🆕
+
+**next.config.js 옵션 (2개):**
+58. [images](./app-router/api-reference/config/next-config-js/images.md) - 이미지 최적화 설정 🆕
+59. [redirects](./app-router/api-reference/config/next-config-js/redirects.md) - URL 리디렉트 설정 🆕
 
 ---
 
@@ -122,13 +129,13 @@ Next.js 공식 문서의 한국어 번역입니다.
 | 섹션 | 진행률 | 문서 수 |
 |------|--------|---------|
 | **App Router - Getting Started** | ✅ 100% | 12/12 |
-| **App Router - Guides** | 🟢 ~61% | 25/41 |
-| **App Router - API Reference** | 🟡 67.5% | 54/80+ |
+| **App Router - Guides** | ✅ 100% | 44/44 |
+| **App Router - API Reference** | 🟢 75% | 60/80+ |
 | **Pages Router** | ⬜ 0% | 0/60+ |
 | **Architecture** | ⬜ 0% | 0/4 |
 | **Community** | ⬜ 0% | 0/2 |
 
-**총 번역 완료:** 91개 문서 ⬆️ (약 45.5%)
+**총 번역 완료:** 123개 문서 ⬆️ (약 61.5%)
 **전체 문서:** 약 200개
 
 📋 **상세 번역 상태:** [TRANSLATION_STATUS.md](./TRANSLATION_STATUS.md) 참조
@@ -305,6 +312,6 @@ Next.js 공식 문서의 한국어 번역입니다.
 
 ---
 
-**마지막 업데이트:** 2026-01-11
-**번역 버전:** Next.js 16.1.1
-**번역 완료:** Phase 14 완료 - 총 91개 핵심 문서 ✅
+**마지막 업데이트:** 2026-01-16
+**번역 버전:** Next.js 16.1.2
+**번역 완료:** Phase 19 완료 - 총 123개 핵심 문서 ✅
