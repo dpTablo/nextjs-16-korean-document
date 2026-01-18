@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git --version:*)",
       "Bash(git config:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(ls \"E:\\\\development\\\\repository\\\\dpTablo\\\\nextjs-16-korean-document\\\\app-router\\\\api-reference\\\\functions\"\" | findstr /I \"forbidden unauthorized unstable_rethrow \")",
+      "Bash(dir /b \"E:\\\\development\\\\repository\\\\dpTablo\\\\nextjs-16-korean-document\\\\app-router\\\\api-reference\")"
     ]
   }
 }
