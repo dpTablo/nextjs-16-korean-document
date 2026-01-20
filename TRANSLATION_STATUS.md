@@ -1,8 +1,8 @@
-# Next.js 16.1.2 한국어 번역 상태
+# Next.js 16.1.4 한국어 번역 상태
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 162개 / 약 200개 문서 (약 81%)
+**총 번역 완료:** 179개 / 약 200개 문서 (약 90%)
 
 ---
 
@@ -83,27 +83,25 @@
 - [x] Upgrading (업그레이드 - codemods, version-16 포함) 🆕
 - [x] Backend for Frontend 🆕
 
-### 3. App Router - API Reference (60/80+ - 75%)
+### 3. App Router - API Reference (72/80+ - 90%)
 
 **✅ 완료:**
 
-**지시어 (3/4):**
+**지시어 (5/5 - 100%):**
 - [x] use client
 - [x] use server
 - [x] use cache ✅
-- [ ] use strict ❌
+- [x] use cache: private ✅ 🆕
+- [x] use cache: remote ✅ 🆕
 
-**컴포넌트 (4/10+):**
+**컴포넌트 (5/5 - 100%):**
 - [x] Link
 - [x] Image
 - [x] Script ✅
 - [x] Font ✅
-- [ ] Form ❌
-- [ ] Metadata ❌
-- [ ] Suspense ❌
-- [ ] ErrorBoundary ❌
+- [x] Form ✅ 🆕
 
-**함수 (28/30+):**
+**함수 (34/37 - 92%):**
 - [x] generateMetadata
 - [x] generateStaticParams
 - [x] redirect
@@ -130,6 +128,8 @@
 - [x] connection
 - [x] after
 - [x] generateImageMetadata
+- [x] ImageResponse ✅
+- [x] generateSitemaps ✅
 
 **React 19 Hooks (3/3):**
 - [x] useFormStatus ✅
@@ -140,6 +140,23 @@
 - [x] forbidden ✅
 - [x] unauthorized ✅
 - [x] unstable_rethrow ✅
+
+**추가 완료 함수 (5개 - Phase 26):**
+- [x] cacheLife ✅ 🆕
+- [x] cacheTag ✅ 🆕
+- [x] refresh ✅ 🆕
+- [x] updateTag ✅ 🆕
+- [x] useLinkStatus ✅ 🆕
+
+**CLI (2/2 - 100%):**
+- [x] create-next-app ✅ 🆕
+- [x] next CLI ✅ 🆕
+
+**Edge Runtime (1/1 - 100%):**
+- [x] Edge Runtime API ✅ 🆕
+
+**Turbopack (1/1 - 100%):**
+- [x] Turbopack API ✅ 🆕
 
 **파일 규칙 (17/20+):**
 - [x] page.js
@@ -232,9 +249,16 @@
 
 ## ❌ 전체 미완료 섹션
 
-### 4. Pages Router (0/60+ - 0%)
+### 4. Pages Router (5/60+ - 8%)
 
-Pages Router 관련 문서는 전혀 번역되지 않았습니다.
+Pages Router API Reference 번역이 시작되었습니다.
+
+**✅ API Reference - 완료 (5개):**
+- [x] getStaticProps ✅ 🆕
+- [x] getStaticPaths ✅ 🆕
+- [x] getServerSideProps ✅ 🆕
+- [x] _app.js (Custom App) ✅ 🆕
+- [x] _document.js (Custom Document) ✅ 🆕
 
 **Building Your Application (약 20개):**
 - [ ] Routing
@@ -249,10 +273,7 @@ Pages Router 관련 문서는 전혀 번역되지 않았습니다.
 - [ ] Upgrading
 - 그 외...
 
-**API Reference (약 40개):**
-- [ ] getStaticProps
-- [ ] getStaticPaths
-- [ ] getServerSideProps
+**API Reference - 미완료 (약 35개):**
 - [ ] getInitialProps
 - [ ] next/router
 - [ ] next/link
@@ -260,8 +281,6 @@ Pages Router 관련 문서는 전혀 번역되지 않았습니다.
 - [ ] next/script
 - [ ] next/head
 - [ ] next/server
-- [ ] _app.js
-- [ ] _document.js
 - [ ] _error.js
 - [ ] 404.js
 - [ ] 500.js
@@ -420,18 +439,20 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 25 완료 (162개 핵심 문서)
-**이번 Phase 25 성과:**
-- Architecture 섹션 5개 문서 번역 완료 ✅
-  - Accessibility (접근성)
-  - Fast Refresh (빠른 새로고침)
-  - Next.js Compiler (컴파일러)
-  - Supported Browsers (지원 브라우저)
-  - Turbopack (번들러)
+**현재 상태:** Phase 27 진행 중 (179개 문서, 90% 달성!)
+**이번 Phase 27 성과:**
+- Pages Router API Reference 5개 문서 번역 완료 ✅
+  - getStaticProps (정적 생성 데이터 페칭) 🆕
+  - getStaticPaths (동적 라우트 경로 생성) 🆕
+  - getServerSideProps (서버 사이드 렌더링) 🆕
+  - _app.js (Custom App 컴포넌트) 🆕
+  - _document.js (Custom Document 컴포넌트) 🆕
 
 **이전 Phase 성과:**
+- Phase 26: API Reference 12개 문서 번역 완료 (Form, cacheLife, cacheTag, refresh, updateTag, useLinkStatus, use cache: private/remote, CLI, Edge Runtime, Turbopack)
+- Phase 25: Architecture 섹션 5개 문서 번역 완료
 - Phase 20-24: next.config.js 옵션 34개 번역 완료
 - Phase 18-19: Guides 7개, API Reference 함수 3개 번역 완료
 
-**다음 목표:** Phase 26 - Pages Router 또는 남은 API Reference 문서
-**최종 목표:** 모든 App Router 문서 번역 완료 - 목표 초과 달성! 🎉
+**다음 목표:** Pages Router 추가 문서 번역 (next/router, next/link, next/head 등)
+**최종 목표:** 전체 문서 번역 완료 - 90% 달성! 🎉
