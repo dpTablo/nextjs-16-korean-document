@@ -2,7 +2,7 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 179개 / 약 200개 문서 (약 90%)
+**총 번역 완료:** 193개 / 약 200개 문서 (약 97%)
 
 ---
 
@@ -249,20 +249,40 @@
 
 ## ❌ 전체 미완료 섹션
 
-### 4. Pages Router (5/60+ - 8%)
+### 4. Pages Router (19/60+ - 32%)
 
-Pages Router API Reference 번역이 시작되었습니다.
+Pages Router 번역이 크게 진행되었습니다.
 
-**✅ API Reference - 완료 (5개):**
-- [x] getStaticProps ✅ 🆕
-- [x] getStaticPaths ✅ 🆕
-- [x] getServerSideProps ✅ 🆕
-- [x] _app.js (Custom App) ✅ 🆕
-- [x] _document.js (Custom Document) ✅ 🆕
+**✅ API Reference - Functions (5개):**
+- [x] getStaticProps ✅
+- [x] getStaticPaths ✅
+- [x] getServerSideProps ✅
+- [x] getInitialProps ✅ 🆕
+- [x] useRouter ✅
 
-**Building Your Application (약 20개):**
-- [ ] Routing
-- [ ] Data Fetching
+**✅ API Reference - Components (4개):**
+- [x] Link ✅
+- [x] Head ✅
+- [x] Image ✅
+- [x] Script ✅
+
+**✅ API Reference - File Conventions (5개):**
+- [x] _app.js (Custom App) ✅
+- [x] _document.js (Custom Document) ✅
+- [x] _error.js (Custom Error) ✅
+- [x] 404.js ✅ 🆕
+- [x] 500.js ✅ 🆕
+
+**✅ Building Your Application - Routing (4개 - Phase 29):**
+- [x] API Routes ✅ 🆕
+- [x] Dynamic Routes ✅ 🆕
+- [x] Pages and Layouts ✅ 🆕
+- [x] Linking and Navigating ✅ 🆕
+
+**✅ Building Your Application - Data Fetching (1개 - Phase 29):**
+- [x] Client-side Data Fetching ✅ 🆕
+
+**Building Your Application - 미완료 (약 15개):**
 - [ ] Rendering
 - [ ] Styling
 - [ ] Optimizing
@@ -270,20 +290,10 @@ Pages Router API Reference 번역이 시작되었습니다.
 - [ ] Testing
 - [ ] Authentication
 - [ ] Deploying
-- [ ] Upgrading
 - 그 외...
 
-**API Reference - 미완료 (약 35개):**
-- [ ] getInitialProps
-- [ ] next/router
-- [ ] next/link
-- [ ] next/image
-- [ ] next/script
-- [ ] next/head
+**API Reference - 미완료 (약 25개):**
 - [ ] next/server
-- [ ] _error.js
-- [ ] 404.js
-- [ ] 500.js
 - 그 외...
 
 ### 5. Architecture (5/5 - 100% 완료!)
@@ -439,20 +449,27 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 27 진행 중 (179개 문서, 90% 달성!)
-**이번 Phase 27 성과:**
-- Pages Router API Reference 5개 문서 번역 완료 ✅
-  - getStaticProps (정적 생성 데이터 페칭) 🆕
-  - getStaticPaths (동적 라우트 경로 생성) 🆕
-  - getServerSideProps (서버 사이드 렌더링) 🆕
-  - _app.js (Custom App 컴포넌트) 🆕
-  - _document.js (Custom Document 컴포넌트) 🆕
+**현재 상태:** Phase 29 완료 (193개 문서, 97% 달성!)
+**이번 Phase 29 성과:**
+- Pages Router API Reference 3개 문서 번역 완료 ✅
+  - getInitialProps (레거시 데이터 페칭) 🆕
+  - 404.js (404 에러 페이지) 🆕
+  - 500.js (500 에러 페이지) 🆕
+- Pages Router Building Your Application - Routing 4개 문서 번역 완료 ✅
+  - API Routes (API 라우트) 🆕
+  - Dynamic Routes (동적 라우트) 🆕
+  - Pages and Layouts (페이지와 레이아웃) 🆕
+  - Linking and Navigating (링크 및 네비게이션) 🆕
+- Pages Router Building Your Application - Data Fetching 1개 문서 번역 완료 ✅
+  - Client-side Data Fetching (클라이언트 사이드 데이터 페칭) 🆕
 
 **이전 Phase 성과:**
+- Phase 28: Pages Router Components 4개 문서 번역 완료 (Link, Head, Image, Script)
+- Phase 27: Pages Router API Reference 5개 문서 번역 완료 (getStaticProps, getStaticPaths, getServerSideProps, _app.js, _document.js)
 - Phase 26: API Reference 12개 문서 번역 완료 (Form, cacheLife, cacheTag, refresh, updateTag, useLinkStatus, use cache: private/remote, CLI, Edge Runtime, Turbopack)
 - Phase 25: Architecture 섹션 5개 문서 번역 완료
 - Phase 20-24: next.config.js 옵션 34개 번역 완료
 - Phase 18-19: Guides 7개, API Reference 함수 3개 번역 완료
 
-**다음 목표:** Pages Router 추가 문서 번역 (next/router, next/link, next/head 등)
-**최종 목표:** 전체 문서 번역 완료 - 90% 달성! 🎉
+**다음 목표:** Pages Router Building Your Application 추가 문서 (Rendering, Styling, Optimizing 등)
+**최종 목표:** 전체 문서 번역 완료 - 97% 달성! 🎉
