@@ -2,7 +2,7 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 193개 / 약 200개 문서 (약 97%)
+**총 번역 완료:** 212개 / 약 220개 문서 (약 96%)
 
 ---
 
@@ -249,7 +249,7 @@
 
 ## ❌ 전체 미완료 섹션
 
-### 4. Pages Router (19/60+ - 32%)
+### 4. Pages Router (38/60+ - 63%)
 
 Pages Router 번역이 크게 진행되었습니다.
 
@@ -257,7 +257,7 @@ Pages Router 번역이 크게 진행되었습니다.
 - [x] getStaticProps ✅
 - [x] getStaticPaths ✅
 - [x] getServerSideProps ✅
-- [x] getInitialProps ✅ 🆕
+- [x] getInitialProps ✅
 - [x] useRouter ✅
 
 **✅ API Reference - Components (4개):**
@@ -270,29 +270,52 @@ Pages Router 번역이 크게 진행되었습니다.
 - [x] _app.js (Custom App) ✅
 - [x] _document.js (Custom Document) ✅
 - [x] _error.js (Custom Error) ✅
-- [x] 404.js ✅ 🆕
-- [x] 500.js ✅ 🆕
+- [x] 404.js ✅
+- [x] 500.js ✅
 
-**✅ Building Your Application - Routing (4개 - Phase 29):**
-- [x] API Routes ✅ 🆕
-- [x] Dynamic Routes ✅ 🆕
-- [x] Pages and Layouts ✅ 🆕
-- [x] Linking and Navigating ✅ 🆕
+**✅ Building Your Application - Routing (4개):**
+- [x] API Routes ✅
+- [x] Dynamic Routes ✅
+- [x] Pages and Layouts ✅
+- [x] Linking and Navigating ✅
 
-**✅ Building Your Application - Data Fetching (1개 - Phase 29):**
-- [x] Client-side Data Fetching ✅ 🆕
+**✅ Building Your Application - Data Fetching (1개):**
+- [x] Client-side Data Fetching ✅
 
-**Building Your Application - 미완료 (약 15개):**
-- [ ] Rendering
-- [ ] Styling
-- [ ] Optimizing
-- [ ] Configuring
+**✅ Building Your Application - Rendering (5개 - Phase 30):**
+- [x] Server-side Rendering ✅ 🆕
+- [x] Static Site Generation ✅ 🆕
+- [x] Client-side Rendering ✅ 🆕
+- [x] Automatic Static Optimization ✅ 🆕
+- [x] Edge and Node.js Runtimes ✅ 🆕
+
+**✅ Building Your Application - Styling (4개 - Phase 30):**
+- [x] CSS Modules ✅ 🆕
+- [x] Tailwind CSS ✅ 🆕
+- [x] CSS-in-JS ✅ 🆕
+- [x] Sass ✅ 🆕
+
+**✅ Building Your Application - Optimizing (5개 - Phase 30):**
+- [x] Fonts ✅ 🆕
+- [x] Scripts ✅ 🆕
+- [x] Static Assets ✅ 🆕
+- [x] Lazy Loading ✅ 🆕
+- [x] Analytics ✅ 🆕
+
+**✅ Building Your Application - Configuring (5개 - Phase 30):**
+- [x] Environment Variables ✅ 🆕
+- [x] ESLint ✅ 🆕
+- [x] TypeScript ✅ 🆕
+- [x] Absolute Imports ✅ 🆕
+- [x] PostCSS ✅ 🆕
+
+**Building Your Application - 미완료 (약 5개):**
 - [ ] Testing
 - [ ] Authentication
 - [ ] Deploying
 - 그 외...
 
-**API Reference - 미완료 (약 25개):**
+**API Reference - 미완료 (약 20개):**
 - [ ] next/server
 - 그 외...
 
@@ -449,21 +472,34 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 29 완료 (193개 문서, 97% 달성!)
-**이번 Phase 29 성과:**
-- Pages Router API Reference 3개 문서 번역 완료 ✅
-  - getInitialProps (레거시 데이터 페칭) 🆕
-  - 404.js (404 에러 페이지) 🆕
-  - 500.js (500 에러 페이지) 🆕
-- Pages Router Building Your Application - Routing 4개 문서 번역 완료 ✅
-  - API Routes (API 라우트) 🆕
-  - Dynamic Routes (동적 라우트) 🆕
-  - Pages and Layouts (페이지와 레이아웃) 🆕
-  - Linking and Navigating (링크 및 네비게이션) 🆕
-- Pages Router Building Your Application - Data Fetching 1개 문서 번역 완료 ✅
-  - Client-side Data Fetching (클라이언트 사이드 데이터 페칭) 🆕
+**현재 상태:** Phase 30 완료 (212개 문서, 96% 달성!)
+**이번 Phase 30 성과:**
+- Pages Router Building Your Application - Rendering 5개 문서 번역 완료 ✅
+  - Server-side Rendering (SSR) 🆕
+  - Static Site Generation (SSG) 🆕
+  - Client-side Rendering (CSR) 🆕
+  - Automatic Static Optimization 🆕
+  - Edge and Node.js Runtimes 🆕
+- Pages Router Building Your Application - Styling 4개 문서 번역 완료 ✅
+  - CSS Modules 🆕
+  - Tailwind CSS 🆕
+  - CSS-in-JS 🆕
+  - Sass 🆕
+- Pages Router Building Your Application - Optimizing 5개 문서 번역 완료 ✅
+  - Fonts 🆕
+  - Scripts 🆕
+  - Static Assets 🆕
+  - Lazy Loading 🆕
+  - Analytics 🆕
+- Pages Router Building Your Application - Configuring 5개 문서 번역 완료 ✅
+  - Environment Variables 🆕
+  - ESLint 🆕
+  - TypeScript 🆕
+  - Absolute Imports 🆕
+  - PostCSS 🆕
 
 **이전 Phase 성과:**
+- Phase 29: Pages Router API Reference 3개 + Routing 4개 + Data Fetching 1개 번역 완료
 - Phase 28: Pages Router Components 4개 문서 번역 완료 (Link, Head, Image, Script)
 - Phase 27: Pages Router API Reference 5개 문서 번역 완료 (getStaticProps, getStaticPaths, getServerSideProps, _app.js, _document.js)
 - Phase 26: API Reference 12개 문서 번역 완료 (Form, cacheLife, cacheTag, refresh, updateTag, useLinkStatus, use cache: private/remote, CLI, Edge Runtime, Turbopack)
@@ -471,5 +507,5 @@ App Router가 우선이므로 필요시 진행
 - Phase 20-24: next.config.js 옵션 34개 번역 완료
 - Phase 18-19: Guides 7개, API Reference 함수 3개 번역 완료
 
-**다음 목표:** Pages Router Building Your Application 추가 문서 (Rendering, Styling, Optimizing 등)
-**최종 목표:** 전체 문서 번역 완료 - 97% 달성! 🎉
+**다음 목표:** Pages Router Building Your Application 추가 문서 (Testing, Authentication, Deploying 등)
+**최종 목표:** 전체 문서 번역 완료 - 96% 달성! 🎉
