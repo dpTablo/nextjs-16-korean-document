@@ -2,13 +2,13 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 212개 / 약 220개 문서 (약 96%)
+**총 번역 완료:** 225개 / 약 235개 문서 (약 96%)
 
 ---
 
 ## ✅ 완료된 섹션
 
-### 1. App Router - Getting Started (12/12 - 100%)
+### 1. App Router - Getting Started (16/16 - 100%)
 
 모든 기본 시작 문서가 번역되었습니다.
 
@@ -24,8 +24,12 @@
 - [x] Font Optimization (폰트 최적화)
 - [x] Route Handlers (라우트 핸들러)
 - [x] Deploying (배포)
+- [x] Fetching Data (데이터 가져오기) 🆕
+- [x] Updating Data (데이터 업데이트) 🆕
+- [x] Metadata and OG Images (메타데이터와 OG 이미지) 🆕
+- [x] Proxy (프록시) 🆕
 
-### 2. App Router - Guides (44/44 - 100% 완료!)
+### 2. App Router - Guides (48/48 - 100% 완료!)
 
 모든 가이드 문서가 번역되었습니다.
 
@@ -82,6 +86,12 @@
 - [x] Multi-tenant (멀티테넌트) 🆕
 - [x] Upgrading (업그레이드 - codemods, version-16 포함) 🆕
 - [x] Backend for Frontend 🆕
+
+**✅ 추가 완료 (4개 - Phase 31):**
+- [x] Testing - Cypress 🆕
+- [x] Testing - Vitest 🆕
+- [x] Instrumentation 🆕
+- [x] Production Checklist (프로덕션 체크리스트) 🆕
 
 ### 3. App Router - API Reference (72/80+ - 90%)
 
@@ -158,7 +168,7 @@
 **Turbopack (1/1 - 100%):**
 - [x] Turbopack API ✅ 🆕
 
-**파일 규칙 (17/20+):**
+**파일 규칙 (22/25+):**
 - [x] page.js
 - [x] layout.js
 - [x] template.js
@@ -176,8 +186,13 @@
 - [x] icon, apple-icon, favicon
 - [x] manifest.json
 - [x] route segment config ✅
+- [x] dynamic-routes (동적 라우트) 🆕
+- [x] parallel-routes (병렬 라우트) 🆕
+- [x] route-groups (라우트 그룹) 🆕
+- [x] intercepting-routes (인터셉팅 라우트) 🆕
+- [x] proxy.js (프록시) 🆕
 - [ ] metadata files (기타) ❌
-- [ ] next.config.js ❌
+- [ ] next.config.js (메인) ❌
 
 **next.config.js 옵션 (36/50+):**
 - [x] images ✅
@@ -472,33 +487,27 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 30 완료 (212개 문서, 96% 달성!)
-**이번 Phase 30 성과:**
-- Pages Router Building Your Application - Rendering 5개 문서 번역 완료 ✅
-  - Server-side Rendering (SSR) 🆕
-  - Static Site Generation (SSG) 🆕
-  - Client-side Rendering (CSR) 🆕
-  - Automatic Static Optimization 🆕
-  - Edge and Node.js Runtimes 🆕
-- Pages Router Building Your Application - Styling 4개 문서 번역 완료 ✅
-  - CSS Modules 🆕
-  - Tailwind CSS 🆕
-  - CSS-in-JS 🆕
-  - Sass 🆕
-- Pages Router Building Your Application - Optimizing 5개 문서 번역 완료 ✅
-  - Fonts 🆕
-  - Scripts 🆕
-  - Static Assets 🆕
-  - Lazy Loading 🆕
-  - Analytics 🆕
-- Pages Router Building Your Application - Configuring 5개 문서 번역 완료 ✅
-  - Environment Variables 🆕
-  - ESLint 🆕
-  - TypeScript 🆕
-  - Absolute Imports 🆕
-  - PostCSS 🆕
+**현재 상태:** Phase 31 완료 (225개 문서, 96% 달성!)
+**이번 Phase 31 성과:**
+- App Router Getting Started 4개 문서 번역 완료 ✅
+  - Fetching Data (데이터 가져오기) 🆕
+  - Updating Data (데이터 업데이트) 🆕
+  - Metadata and OG Images (메타데이터와 OG 이미지) 🆕
+  - Proxy (프록시) 🆕
+- App Router Guides 4개 문서 번역 완료 ✅
+  - Testing - Cypress 🆕
+  - Testing - Vitest 🆕
+  - Instrumentation 🆕
+  - Production Checklist (프로덕션 체크리스트) 🆕
+- App Router File Conventions 5개 문서 번역 완료 ✅
+  - Dynamic Routes (동적 라우트) 🆕
+  - Parallel Routes (병렬 라우트) 🆕
+  - Route Groups (라우트 그룹) 🆕
+  - Intercepting Routes (인터셉팅 라우트) 🆕
+  - proxy.js (프록시 파일 규칙) 🆕
 
 **이전 Phase 성과:**
+- Phase 30: Pages Router Building Your Application 19개 문서 번역 완료 (Rendering, Styling, Optimizing, Configuring)
 - Phase 29: Pages Router API Reference 3개 + Routing 4개 + Data Fetching 1개 번역 완료
 - Phase 28: Pages Router Components 4개 문서 번역 완료 (Link, Head, Image, Script)
 - Phase 27: Pages Router API Reference 5개 문서 번역 완료 (getStaticProps, getStaticPaths, getServerSideProps, _app.js, _document.js)
