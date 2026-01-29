@@ -2,7 +2,7 @@
 
 ## 📊 전체 번역 현황
 
-**총 번역 완료:** 249개 / 약 250개 문서 (약 99.6%)
+**총 번역 완료:** 256개 / 약 260개 문서 (약 98.5%)
 
 ---
 
@@ -264,29 +264,36 @@
 
 ## ❌ 전체 미완료 섹션
 
-### 4. Pages Router (52/60+ - 87%)
+### 4. Pages Router (59/60+ - 98%)
 
-Pages Router 번역이 크게 진행되었습니다.
+Pages Router 번역이 거의 완료되었습니다!
 
-**✅ API Reference - Functions (5개):**
+**✅ API Reference - Functions (8개):**
 - [x] getStaticProps ✅
 - [x] getStaticPaths ✅
 - [x] getServerSideProps ✅
 - [x] getInitialProps ✅
 - [x] useRouter ✅
+- [x] useReportWebVitals ✅ 🆕
+- [x] NextRequest ✅ 🆕
+- [x] NextResponse ✅ 🆕
 
-**✅ API Reference - Components (4개):**
+**✅ API Reference - Components (6개):**
 - [x] Link ✅
 - [x] Head ✅
 - [x] Image ✅
 - [x] Script ✅
+- [x] Font ✅ 🆕
+- [x] Image (Legacy) ✅ 🆕
 
-**✅ API Reference - File Conventions (5개):**
+**✅ API Reference - File Conventions (7개):**
 - [x] _app.js (Custom App) ✅
 - [x] _document.js (Custom Document) ✅
 - [x] _error.js (Custom Error) ✅
 - [x] 404.js ✅
 - [x] 500.js ✅
+- [x] instrumentation.js ✅ 🆕
+- [x] proxy.js ✅ 🆕
 
 **✅ Building Your Application - Routing (8개):**
 - [x] API Routes ✅
@@ -344,9 +351,10 @@ Pages Router 번역이 크게 진행되었습니다.
 - [x] Multi-zones ✅
 - [x] Static Exports ✅
 
-**API Reference - 미완료 (약 8개):**
-- [ ] next/server
-- 그 외...
+**📝 참고사항:**
+- Pages Router는 App Router와 많은 문서를 공유합니다
+- Getting Started 섹션은 App Router와 유사하므로 별도 작성하지 않았습니다
+- useParams, useSearchParams, Form 등은 App Router 전용입니다
 
 ### 5. Architecture (5/5 - 100% 완료!)
 
@@ -508,8 +516,14 @@ App Router가 우선이므로 필요시 진행
 
 ---
 
-**현재 상태:** Phase 33 완료 (249개 문서, 99.6% 달성!)
-**이번 Phase 33 성과:**
+**현재 상태:** Phase 34 완료 (256개 문서, 98.5% 달성!)
+**이번 Phase 34 성과:**
+- Pages Router API Reference 7개 문서 추가 ✅
+  - Functions: useReportWebVitals, NextRequest, NextResponse 🆕
+  - Components: Font, Image (Legacy) 🆕
+  - File Conventions: instrumentation.js, proxy.js 🆕
+
+**Phase 33 성과:**
 - Glossary 섹션 추가 ✅
   - Glossary (용어집) 🆕
 - Community 섹션 추가 ✅
@@ -551,14 +565,14 @@ App Router가 우선이므로 필요시 진행
 - Phase 20-24: next.config.js 옵션 34개 번역 완료
 - Phase 18-19: Guides 7개, API Reference 함수 3개 번역 완료
 
-**다음 목표:** 남은 Pages Router 문서 완료 및 전체 검토
-**최종 목표:** 전체 문서 번역 완료 - 99.6% 달성! 🎉
+**다음 목표:** 최종 검토 및 품질 확인
+**최종 목표:** 전체 문서 번역 완료 - 98.5% 달성! 🎉
 
 ---
 
-## 🎊 App Router 완료!
+## 🎊 주요 섹션 완료 현황
 
-App Router의 모든 문서가 **100% 완료**되었습니다:
+### App Router: **100% 완료** ✅
 - ✅ Getting Started (18/18)
 - ✅ Guides (48/48)
 - ✅ API Reference (80+/80+)
@@ -566,4 +580,11 @@ App Router의 모든 문서가 **100% 완료**되었습니다:
 - ✅ Community (3/3)
 - ✅ Glossary (1/1)
 
-남은 작업: Pages Router 일부 문서 (약 8개)
+### Pages Router: **98% 완료** ✅
+- ✅ API Reference - Functions (8/8)
+- ✅ API Reference - Components (6/6)
+- ✅ API Reference - File Conventions (7/7)
+- ✅ Building Your Application (38/38)
+- 📝 Getting Started는 App Router와 유사하여 별도 작성하지 않음
+
+**거의 완성!** 핵심 문서는 모두 번역되었습니다.
