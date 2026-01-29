@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/headers
+버전: 16.1.6
+---
+
 # headers
 
 headers를 사용하면 주어진 경로에 대한 들어오는 요청의 응답에 커스텀 HTTP 헤더를 설정할 수 있습니다.

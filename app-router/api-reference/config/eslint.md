@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/eslint
+버전: 16.1.6
+---
+
 # ESLint
 
 Next.js는 애플리케이션의 일반적인 문제를 쉽게 잡을 수 있도록 `eslint-config-next` 패키지를 제공합니다.

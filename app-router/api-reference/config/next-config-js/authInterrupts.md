@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts
+버전: 16.1.6
+---
+
 # authInterrupts
 
 > **참고**: 이 기능은 canary 채널에서 사용 가능하며 변경될 수 있습니다.

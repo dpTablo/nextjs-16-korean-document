@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/components/form
+버전: 16.1.6
+---
+
 # Form
 
 `<Form>` 컴포넌트는 HTML `<form>` 요소를 확장하여 **프리페칭**, **클라이언트 측 네비게이션**, **점진적 개선**을 제공합니다.

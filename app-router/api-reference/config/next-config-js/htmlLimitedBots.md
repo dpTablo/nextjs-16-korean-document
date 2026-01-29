@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots
+버전: 16.1.6
+---
+
 # htmlLimitedBots
 
 ## 개요

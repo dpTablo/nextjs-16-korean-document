@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin
+버전: 16.1.6
+---
+
 # crossOrigin
 
 `crossOrigin` 옵션을 사용하면 `next/script` 컴포넌트에서 생성된 모든 `<script>` 태그에 `crossOrigin` 속성을 추가하여 교차 출처 요청을 처리하는 방법을 정의합니다.

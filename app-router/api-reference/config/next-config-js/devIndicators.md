@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators
+버전: 16.1.6
+---
+
 # devIndicators
 
 `devIndicators`를 사용하면 개발 중 현재 라우트에 대한 컨텍스트를 표시하는 화면 표시기를 구성할 수 있습니다.

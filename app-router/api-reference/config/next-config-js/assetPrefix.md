@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix
+버전: 16.1.6
+---
+
 # assetPrefix
 
 > **주의**: [Vercel에 배포](/docs/app/building-your-application/deploying)하면 Next.js 프로젝트에 대해 글로벌 CDN이 자동으로 구성됩니다. `assetPrefix`를 수동으로 설정할 필요가 없습니다.

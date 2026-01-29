@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap
+버전: 16.1.6
+---
+
 # exportPathMap
 
 > **경고**: `exportPathMap`은 `pages`에서 `getStaticPaths`를 사용하기 위한 레거시 API입니다. `pages/`에서 미리 렌더링할 페이지 목록을 지정하기 위해 `getStaticPaths`를 사용하거나 App Router에서 `generateStaticParams`를 사용하는 것이 좋습니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/browserDebugInfoInTerminal
+버전: 16.1.6
+---
+
 # browserDebugInfoInTerminal
 
 > **참고**: 이 옵션은 v16.2.x부터 `logging.browserToTerminal`로 이동되었습니다. 새 프로젝트에서는 `logging.browserToTerminal`을 사용하세요.

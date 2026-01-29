@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/env
+버전: 16.1.6
+---
+
 # env
 
 > Next.js 9.4 출시 이후, [환경 변수를 추가하는 더 직관적이고 인체공학적인 경험](/docs/app/building-your-application/configuring/environment-variables)이 제공됩니다. 한번 시도해 보세요!

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife
+버전: 16.1.6
+---
+
 # cacheLife
 
 `cacheLife` 옵션을 사용하면 `use cache` 지시어 범위 내에서 컴포넌트와 함수 내부의 `cacheLife()` 함수와 함께 사용할 **커스텀 캐시 프로필**을 정의할 수 있습니다.

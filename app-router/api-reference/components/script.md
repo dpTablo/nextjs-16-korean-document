@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/components/script
+버전: 16.1.6
+---
+
 # Script
 
 `<Script>` 컴포넌트는 Next.js 애플리케이션에서 외부 스크립트를 최적화하여 로드하는 데 사용됩니다.

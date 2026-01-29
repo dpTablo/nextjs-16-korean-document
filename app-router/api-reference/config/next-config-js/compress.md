@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/compress
+버전: 16.1.6
+---
+
 # compress
 
 기본적으로 Next.js는 `next start`를 사용하거나 커스텀 서버를 사용할 때 렌더링된 콘텐츠와 정적 파일에 대해 **gzip** 압축을 사용합니다. 이는 압축이 아직 구성되지 않은 애플리케이션을 위한 최적화입니다. 애플리케이션에서 커스텀 서버를 통해 압축이 _이미_ 구성된 경우, Next.js는 압축을 추가하지 않습니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir
+버전: 16.1.6
+---
+
 # appDir
 
 > **레거시 API**: 이 옵션은 더 이상 권장되지 않습니다. 하위 호환성을 위해 계속 지원됩니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/cli/next-cli
+버전: 16.1.6
+---
+
 # next CLI
 
 Next.js CLI는 애플리케이션의 개발, 빌드, 실행 등을 관리합니다.

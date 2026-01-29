@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/experimental
+버전: 16.1.6
+---
+
 # 실험적 기능
 
 Next.js는 `next.config.js`의 `experimental` 플래그를 통해 다양한 실험적 기능을 제공합니다. 이러한 기능은 안정화되기 전까지 변경될 수 있습니다.

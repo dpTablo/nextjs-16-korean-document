@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking
+버전: 16.1.6
+---
+
 # cssChunking
 
 > **경고**: 이 기능은 실험적이며 프로덕션 환경에서는 권장되지 않습니다.

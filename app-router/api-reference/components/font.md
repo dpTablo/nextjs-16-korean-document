@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/components/font
+버전: 16.1.6
+---
+
 # Font Optimization
 
 `next/font`는 Google Fonts 및 사용자 정의 폰트를 자동으로 최적화하고, 외부 네트워크 요청을 제거하여 프라이버시와 성능을 개선합니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir
+버전: 16.1.6
+---
+
 # distDir
 
 기본 `.next` 디렉토리 대신 사용할 커스텀 빌드 디렉토리 이름을 지정할 수 있습니다.

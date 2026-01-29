@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath
+버전: 16.1.6
+---
+
 # basePath
 
 도메인의 하위 경로에 Next.js 애플리케이션을 배포하려면 `basePath` 구성 옵션을 사용하면 됩니다.

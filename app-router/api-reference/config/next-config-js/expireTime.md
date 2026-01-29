@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime
+버전: 16.1.6
+---
+
 # expireTime
 
 ## 개요

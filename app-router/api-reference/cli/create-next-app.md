@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/cli/create-next-app
+버전: 16.1.6
+---
+
 # create-next-app
 
 `create-next-app`은 Next.js 애플리케이션을 기본 템플릿 또는 GitHub 저장소의 예제로 생성할 수 있는 CLI 도구입니다.

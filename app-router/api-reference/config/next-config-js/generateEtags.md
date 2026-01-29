@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags
+버전: 16.1.6
+---
+
 # generateEtags
 
 Next.js는 기본적으로 모든 페이지에 대해 [ETag](https://en.wikipedia.org/wiki/HTTP_ETag)를 생성합니다. 캐시 전략에 따라 HTML 페이지에 대한 ETag 생성을 비활성화하고 싶을 수 있습니다.

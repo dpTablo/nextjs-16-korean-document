@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId
+버전: 16.1.6
+---
+
 # generateBuildId
 
 Next.js는 빌드 시 생성된 ID를 사용하여 애플리케이션의 어떤 버전이 제공되고 있는지 식별합니다. 이는 여러 컨테이너를 부팅할 때 동일한 빌드 ID를 사용해야 하는 다중 서버 배포에서 문제가 될 수 있습니다.
