@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/next-request
+버전: 16.1.6
+---
+
 # NextRequest & NextResponse
 
 ## 개요

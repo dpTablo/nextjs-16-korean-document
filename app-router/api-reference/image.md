@@ -1,7 +1,9 @@
-# Image 컴포넌트 API 참조
+---
+원문: https://nextjs.org/docs/app/api-reference/components/image
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-11-21
+# Image 컴포넌트 API 참조
 
 ## 개요
 Next.js `<Image>` 컴포넌트는 HTML `<img>` 요소를 확장하여 자동 이미지 최적화를 제공합니다.

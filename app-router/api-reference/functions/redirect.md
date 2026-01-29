@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/redirect
+버전: 16.1.6
+---
+
 # redirect
 
 `redirect` 함수는 사용자를 다른 URL로 리디렉션합니다. Server Components, Client Components, Route Handlers, Server Actions에서 사용할 수 있습니다.

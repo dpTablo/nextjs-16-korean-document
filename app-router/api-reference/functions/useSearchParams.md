@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-search-params
+버전: 16.1.6
+---
+
 # useSearchParams
 
 `useSearchParams`는 **Client Component** hook으로, 현재 URL의 **쿼리 문자열**을 읽을 수 있게 해줍니다. [`URLSearchParams`](https://developer.mozilla.org/docs/Web/API/URLSearchParams) 인터페이스의 **읽기 전용** 버전을 반환합니다.

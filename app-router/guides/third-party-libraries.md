@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/third-party-libraries
+버전: 16.1.6
+---
+
 # Third-Party Libraries (서드파티 라이브러리)
 
 Next.js에서 서드파티 라이브러리를 최적화하여 성능과 개발자 경험을 향상시키는 방법을 알아봅니다.

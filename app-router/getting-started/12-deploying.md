@@ -1,7 +1,9 @@
-# 배포
+---
+원문: https://nextjs.org/docs/app/getting-started/deploying
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-12-04
+# 배포
 
 ## 개요
 

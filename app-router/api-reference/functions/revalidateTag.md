@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/revalidateTag
+버전: 16.1.6
+---
+
 # revalidateTag
 
 `revalidateTag`는 특정 캐시 태그에 대해 **온디맨드로 캐시된 데이터를 무효화**하는 함수입니다.

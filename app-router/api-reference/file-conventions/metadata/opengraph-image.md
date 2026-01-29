@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image
+버전: 16.1.6
+---
+
 # opengraph-image 및 twitter-image
 
 ## 개요

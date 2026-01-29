@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/layout
+버전: 16.1.6
+---
+
 # layout.js
 
 `layout` 파일은 Next.js 애플리케이션에서 레이아웃을 정의합니다. 이는 라우트 세그먼트를 감싸는 공유 UI를 생성하는 데 사용되는 특수 파일입니다.

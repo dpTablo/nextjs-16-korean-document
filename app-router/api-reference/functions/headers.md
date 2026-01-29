@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/headers
+버전: 16.1.6
+---
+
 # headers
 
 `headers`는 **비동기(async)** 함수로, Server Component에서 HTTP 요청 헤더를 읽을 수 있게 해줍니다.

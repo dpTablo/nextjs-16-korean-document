@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons
+버전: 16.1.6
+---
+
 # App Icons (favicon, icon, apple-icon)
 
 ## 개요

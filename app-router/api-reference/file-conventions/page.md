@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/page
+버전: 16.1.6
+---
+
 # page.js
 
 `page` 파일은 **특정 라우트에만 고유한 UI**를 정의합니다. 파일에서 컴포넌트를 기본 내보내기(default export)하여 생성합니다.

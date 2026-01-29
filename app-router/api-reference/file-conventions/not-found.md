@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/not-found
+버전: 16.1.6
+---
+
 # not-found.js
 
 ## 개요

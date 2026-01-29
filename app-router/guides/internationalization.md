@@ -1,6 +1,9 @@
-# 국제화 (i18n)
+---
+원문: https://nextjs.org/docs/app/guides/internationalization
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# 국제화 (i18n)
 
 ## 개요
 Next.js는 로케일 기반 라우팅 및 현지화 패턴을 통해 여러 언어에 대한 라우팅 및 렌더링 설정을 지원합니다.

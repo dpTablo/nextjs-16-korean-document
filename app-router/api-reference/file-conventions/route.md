@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/route
+버전: 16.1.6
+---
+
 # route.js
 
 Route Handlers를 사용하면 Web Request 및 Response API를 사용하여 주어진 라우트에 대한 커스텀 요청 핸들러를 생성할 수 있습니다.

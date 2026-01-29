@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap
+버전: 16.1.6
+---
+
 # sitemap.xml
 
 ## 개요

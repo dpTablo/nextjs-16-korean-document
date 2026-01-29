@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/global-error
+버전: 16.1.6
+---
+
 # global-error.js
 
 ## 개요

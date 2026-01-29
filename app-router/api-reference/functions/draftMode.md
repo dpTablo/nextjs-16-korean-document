@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/draft-mode
+버전: 16.1.6
+---
+
 # draftMode
 
 `draftMode`는 **비동기 함수**로, [Draft Mode](../../guides/draft-mode.md)를 활성화/비활성화하고 Server Component에서 Draft Mode 상태를 확인할 수 있습니다.

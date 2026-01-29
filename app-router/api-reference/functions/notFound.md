@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/not-found
+버전: 16.1.6
+---
+
 # notFound
 
 `notFound` 함수는 라우트 세그먼트 내에서 `not-found` 파일을 렌더링하고 `<meta name="robots" content="noindex" />` 태그를 주입할 수 있게 합니다.

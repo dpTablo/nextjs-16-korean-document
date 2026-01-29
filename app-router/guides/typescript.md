@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/typescript
+버전: 16.1.6
+---
+
 # TypeScript
 
 Next.js에서 TypeScript를 설정하고 사용하는 방법을 알아봅니다.

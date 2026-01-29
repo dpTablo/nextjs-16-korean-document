@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+버전: 16.1.6
+---
+
 # Route Segment Config
 
 ## 개요

@@ -1,6 +1,9 @@
-# Playwright로 Next.js 테스트하기
+---
+원문: https://nextjs.org/docs/app/guides/testing/playwright
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# Playwright로 Next.js 테스트하기
 
 ## 개요
 Playwright는 단일 API로 Chromium, Firefox, WebKit 브라우저를 자동화하는 테스팅 프레임워크로 E2E(End-to-End) 테스트를 가능하게 합니다.

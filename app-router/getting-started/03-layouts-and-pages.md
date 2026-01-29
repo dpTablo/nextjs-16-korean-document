@@ -1,7 +1,9 @@
-# 레이아웃과 페이지
+---
+원문: https://nextjs.org/docs/app/getting-started/layouts-and-pages
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-11-17
+# 레이아웃과 페이지
 
 ## 개요
 

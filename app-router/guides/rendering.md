@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/rendering
+버전: 16.1.6
+---
+
 # 렌더링 전략
 
 ## 개요

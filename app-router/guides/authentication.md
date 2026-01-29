@@ -1,7 +1,9 @@
-# 인증
+---
+원문: https://nextjs.org/docs/app/guides/authentication
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-01-09
+# 인증
 
 ## 개요
 

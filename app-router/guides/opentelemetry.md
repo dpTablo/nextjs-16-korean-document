@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/opentelemetry
+버전: 16.1.6
+---
+
 # OpenTelemetry
 
 Next.js 애플리케이션에서 OpenTelemetry를 사용하여 관찰성(Observability)을 구현하는 방법을 알아봅니다.

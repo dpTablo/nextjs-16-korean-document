@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/scripts
+버전: 16.1.6
+---
+
 # Scripts
 
 Next.js 애플리케이션에서 서드파티 스크립트를 로드하고 최적화하는 방법을 알아봅니다.
@@ -885,11 +890,3 @@ npm install --save-dev @next/bundle-analyzer
 - [Content Security Policy](./content-security-policy.md) - CSP 구성
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11
-
-**참고 자료:**
-- [Script 컴포넌트 API](https://nextjs.org/docs/app/api-reference/components/script)
-- [Partytown 문서](https://partytown.builder.io/)
-- [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)

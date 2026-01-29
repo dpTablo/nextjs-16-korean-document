@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/template
+버전: 16.1.6
+---
+
 # template.js
 
 ## 개요

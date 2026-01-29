@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-router
+버전: 16.1.6
+---
+
 # useRouter
 
 `useRouter` hook은 Next.js App Router의 Client Components에서 프로그래밍 방식으로 라우팅을 변경할 수 있게 해줍니다.

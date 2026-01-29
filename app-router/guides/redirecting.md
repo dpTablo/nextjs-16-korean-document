@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/redirecting
+버전: 16.1.6
+---
+
 # Redirecting (리디렉션)
 
 Next.js에서 리디렉션을 처리하는 다양한 방법을 알아봅니다.
@@ -630,6 +635,3 @@ export function GET(request: NextRequest) {
 - [Middleware](../api-reference/file-conventions/middleware.md) - Middleware 가이드
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-params
+버전: 16.1.6
+---
+
 # useParams
 
 `useParams`는 **Client Component** hook으로, 현재 URL에 의해 채워진 라우트의 **동적 파라미터**를 읽을 수 있습니다.

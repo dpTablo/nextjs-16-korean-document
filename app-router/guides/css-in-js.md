@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/css-in-js
+버전: 16.1.6
+---
+
 # CSS-in-JS
 
 Next.js에서 CSS-in-JS 라이브러리를 사용하는 방법을 알아봅니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/data-fetching
+버전: 16.1.6
+---
+
 # 데이터 페칭 패턴
 
 ## 개요

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/analytics
+버전: 16.1.6
+---
+
 # Analytics (분석)
 
 Next.js에서 성능 지표를 측정하고 보고하는 방법을 알아봅니다.
@@ -400,6 +405,3 @@ function sendBatch() {
 - [Instrumentation](../api-reference/file-conventions/instrumentation.md) - 서버 사이드 계측
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11

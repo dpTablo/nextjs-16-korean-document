@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/lazy-loading
+버전: 16.1.6
+---
+
 # Lazy Loading (지연 로딩)
 
 Next.js에서 컴포넌트와 라이브러리를 필요할 때만 로드하여 성능을 최적화하는 방법을 알아봅니다.
@@ -482,6 +487,3 @@ ANALYZE=true npm run build
 - [Code Splitting](https://react.dev/reference/react/lazy) - React 공식 문서
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11

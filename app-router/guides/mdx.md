@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/mdx
+버전: 16.1.6
+---
+
 # MDX
 
 Next.js에서 MDX를 사용하여 마크다운에 React 컴포넌트를 포함시키는 방법을 알아봅니다.

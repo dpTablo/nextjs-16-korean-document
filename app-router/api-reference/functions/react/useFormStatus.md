@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-form-status
+버전: 16.1.6
+---
+
 # useFormStatus
 
 ## 개요

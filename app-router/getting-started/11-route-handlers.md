@@ -1,7 +1,9 @@
-# Route Handlers
+---
+원문: https://nextjs.org/docs/app/getting-started/route-handlers
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-11-18
+# Route Handlers
 
 ## 개요
 Route Handlers를 사용하면 Web Request 및 Response API를 사용하여 주어진 라우트에 대한 커스텀 요청 핸들러를 생성할 수 있습니다. `app` 디렉토리 내에서만 사용 가능하며, `pages` 디렉토리의 API Routes와 동등합니다.

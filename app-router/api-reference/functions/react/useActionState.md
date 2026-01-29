@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-action-state
+버전: 16.1.6
+---
+
 # useActionState
 
 ## 개요

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/loading
+버전: 16.1.6
+---
+
 # loading.js
 
 `loading.js`는 [React Suspense](https://react.dev/reference/react/Suspense)를 통해 의미 있는 로딩 UI를 만들기 위한 특수 파일입니다. 라우트 세그먼트의 콘텐츠가 로딩되는 동안 서버에서 즉시 로딩 상태를 표시할 수 있으며, 렌더링이 완료되면 새 콘텐츠가 자동으로 교체됩니다.

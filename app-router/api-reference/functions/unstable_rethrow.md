@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow
+버전: 16.1.6
+---
+
 # unstable_rethrow
 
 ## 개요

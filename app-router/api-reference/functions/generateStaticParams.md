@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/generate-static-params
+버전: 16.1.6
+---
+
 # generateStaticParams
 
 `generateStaticParams`는 동적 라우트 세그먼트와 함께 사용하여 요청 시간이 아닌 빌드 시간에 라우트를 정적으로 생성하는 함수입니다.

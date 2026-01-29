@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/custom-server
+버전: 16.1.6
+---
+
 # Custom Server
 
 커스텀 서버를 사용하여 Next.js를 프로그래밍 방식으로 시작하는 방법을 알아봅니다.
@@ -548,12 +553,3 @@ const next = require('next')
 - [Self-Hosting](./self-hosting.md) - 셀프 호스팅 가이드
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-15
-
-**참고 자료:**
-- [Node.js HTTP 모듈](https://nodejs.org/api/http.html)
-- [Express.js](https://expressjs.com/)
-- [Fastify](https://fastify.io/)
-- [PM2](https://pm2.keymetrics.io/)

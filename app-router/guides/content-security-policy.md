@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/content-security-policy
+버전: 16.1.6
+---
+
 # Content Security Policy (콘텐츠 보안 정책)
 
 Next.js 애플리케이션을 XSS, 클릭재킹 및 코드 삽입 공격으로부터 보호하는 방법을 알아봅니다.

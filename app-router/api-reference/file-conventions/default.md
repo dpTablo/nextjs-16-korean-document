@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/default
+버전: 16.1.6
+---
+
 # default.js
 
 ## 개요

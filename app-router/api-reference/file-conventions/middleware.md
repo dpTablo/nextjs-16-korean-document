@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/middleware
+버전: 16.1.6
+---
+
 # middleware.js / proxy.js
 
 > **중요**: Next.js 16부터 `middleware`가 `proxy`로 이름이 변경되었습니다. 기능은 동일하지만 더 명확한 의미를 전달하기 위해 이름이 바뀌었습니다.

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/cookies
+버전: 16.1.6
+---
+
 # cookies
 
 `cookies`는 **async 함수**로, Server Components에서 HTTP incoming request cookies를 읽고, Server Actions 또는 Route Handlers에서 outgoing request cookies를 읽고 쓸 수 있습니다.

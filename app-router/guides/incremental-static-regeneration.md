@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/incremental-static-regeneration
+버전: 16.1.6
+---
+
 # Incremental Static Regeneration (ISR)
 
 전체 사이트를 다시 빌드하지 않고 정적 콘텐츠를 업데이트하는 방법을 알아봅니다.
@@ -825,10 +830,3 @@ export async function updateProductPrice(id: string, newPrice: number) {
 - [Server Actions Patterns](./server-actions-patterns.md) - Server Actions 패턴
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11
-
-**참고 자료:**
-- [Next.js 캐싱 문서](https://nextjs.org/docs/app/building-your-application/caching)
-- [Vercel ISR 가이드](https://vercel.com/docs/concepts/incremental-static-regeneration)

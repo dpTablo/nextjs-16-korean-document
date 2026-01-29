@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/progressive-web-apps
+버전: 16.1.6
+---
+
 # Progressive Web Apps (PWAs)
 
 Next.js에서 Progressive Web Application을 구축하는 방법을 알아봅니다.
@@ -964,11 +969,3 @@ export function PWAProvider({ children }: { children: React.ReactNode }) {
 - [Content Security Policy](./content-security-policy.md) - CSP 구성
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11
-
-**참고:**
-- PWA는 HTTPS가 필요합니다 (localhost 제외)
-- iOS 지원은 제한적일 수 있습니다
-- Service Worker는 신중하게 구현해야 합니다

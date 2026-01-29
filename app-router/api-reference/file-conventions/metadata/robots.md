@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots
+버전: 16.1.6
+---
+
 # robots.txt
 
 ## 개요

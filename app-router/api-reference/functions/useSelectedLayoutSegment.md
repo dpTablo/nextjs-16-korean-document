@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment
+버전: 16.1.6
+---
+
 # useSelectedLayoutSegment
 
 ## 개요

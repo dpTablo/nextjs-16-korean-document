@@ -1,7 +1,9 @@
-# 설치
+---
+원문: https://nextjs.org/docs/app/getting-started/installation
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-12-09
+# 설치
 
 ## 빠른 시작
 

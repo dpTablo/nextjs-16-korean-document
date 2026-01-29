@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/use-pathname
+버전: 16.1.6
+---
+
 # usePathname
 
 `usePathname`은 **Client Component** hook으로, 현재 URL의 **pathname**을 읽을 수 있게 해줍니다.

@@ -1,7 +1,9 @@
-# 서버 및 클라이언트 컴포넌트
+---
+원문: https://nextjs.org/docs/app/getting-started/server-and-client-components
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-12-19
+# 서버 및 클라이언트 컴포넌트
 
 ## 개요
 

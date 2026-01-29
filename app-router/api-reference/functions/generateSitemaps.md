@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps
+버전: 16.1.6
+---
+
 # generateSitemaps
 
 ## 개요

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/tailwind-css
+버전: 16.1.6
+---
+
 # Tailwind CSS v3
 
 Next.js 애플리케이션에 Tailwind CSS v3를 설치하고 구성하는 방법을 알아봅니다.

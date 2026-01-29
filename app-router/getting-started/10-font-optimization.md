@@ -1,7 +1,9 @@
-# 폰트 최적화
+---
+원문: https://nextjs.org/docs/app/getting-started/font-optimization
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-06-11
+# 폰트 최적화
 
 ## 개요
 

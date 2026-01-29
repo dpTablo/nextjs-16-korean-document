@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest
+버전: 16.1.6
+---
+
 # manifest.json / manifest.webmanifest
 
 ## 개요

@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/sass
+버전: 16.1.6
+---
+
 # Sass
 
 Next.js에서 Sass를 사용하여 스타일을 작성하는 방법을 알아봅니다.
@@ -635,10 +640,3 @@ const nextConfig = {
 - [CSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules)
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11
-
-**참고 자료:**
-- [Sass 공식 문서](https://sass-lang.com/documentation)
-- [Next.js Sass 예시](https://github.com/vercel/next.js/tree/canary/examples/with-sass)

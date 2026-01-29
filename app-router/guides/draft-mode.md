@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/draft-mode
+버전: 16.1.6
+---
+
 # Draft Mode (초안 모드)
 
 헤드리스 CMS의 초안 콘텐츠를 Next.js 애플리케이션에서 미리보기하는 방법을 알아봅니다.

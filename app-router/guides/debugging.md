@@ -1,6 +1,9 @@
-# 디버깅
+---
+원문: https://nextjs.org/docs/app/guides/debugging
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# 디버깅
 
 ## 개요
 이 문서는 VS Code, Chrome DevTools 또는 Firefox DevTools를 사용하여 완전한 소스 맵 지원으로 Next.js 프론트엔드 및 백엔드 코드를 디버깅하는 방법을 다룹니다. Node.js에 연결할 수 있는 모든 디버거는 Next.js 애플리케이션을 디버깅할 수 있습니다.

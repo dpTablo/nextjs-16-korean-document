@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/file-conventions/error
+버전: 16.1.6
+---
+
 # error.js
 
 `error.js` 파일은 예상치 못한 런타임 오류를 처리하고 폴백 UI를 표시하는 역할을 합니다. React Error Boundary로 라우트 세그먼트와 중첩된 자식 요소를 감싸서 오류 발생 시 폴백 UI를 표시합니다.

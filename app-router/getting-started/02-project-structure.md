@@ -1,7 +1,9 @@
-# Next.js 프로젝트 구조 및 구성
+---
+원문: https://nextjs.org/docs/app/getting-started/project-structure
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-12-09
+# Next.js 프로젝트 구조 및 구성
 
 ## 폴더 및 파일 규칙
 

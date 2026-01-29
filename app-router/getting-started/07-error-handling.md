@@ -1,7 +1,9 @@
-# 에러 처리
+---
+원문: https://nextjs.org/docs/app/getting-started/error-handling
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 최신
+# 에러 처리
 
 ## 개요
 Next.js 애플리케이션의 에러는 두 가지 범주로 나뉩니다:

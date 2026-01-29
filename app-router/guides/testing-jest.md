@@ -1,6 +1,9 @@
-# Jest로 Next.js 테스트하기
+---
+원문: https://nextjs.org/docs/app/guides/testing/jest
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# Jest로 Next.js 테스트하기
 
 ## 개요
 Jest와 React Testing Library는 Next.js 프로젝트에서 **유닛 테스트** 및 **스냅샷 테스트**를 위해 함께 사용됩니다. Next.js 12부터 Jest 설정이 내장되어 있습니다.

@@ -1,9 +1,9 @@
-# 링크 및 네비게이션
-
-**버전:** 16.1.1
-**최종 업데이트:** 2025-12-19
-
 ---
+원문: https://nextjs.org/docs/app/getting-started/linking-and-navigating
+버전: 16.1.6
+---
+
+# 링크 및 네비게이션
 
 ## 개요
 

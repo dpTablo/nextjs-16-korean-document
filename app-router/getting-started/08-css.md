@@ -1,6 +1,9 @@
-# CSS 스타일링
+---
+원문: https://nextjs.org/docs/app/getting-started/css
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# CSS 스타일링
 
 ## 개요
 Next.js는 여러 스타일링 방법을 제공합니다:

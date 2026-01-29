@@ -1,6 +1,9 @@
-# 캐싱
+---
+원문: https://nextjs.org/docs/app/guides/caching
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# 캐싱
 
 ## 캐싱 메커니즘 개요
 

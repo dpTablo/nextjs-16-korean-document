@@ -1,7 +1,9 @@
-# Next.js에서 환경 변수 사용하기
+---
+원문: https://nextjs.org/docs/app/guides/environment-variables
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-10-08
+# Next.js에서 환경 변수 사용하기
 
 ## 개요
 

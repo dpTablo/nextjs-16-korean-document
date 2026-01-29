@@ -1,7 +1,9 @@
-# Next.js를 프론트엔드의 백엔드로 사용하는 방법
+---
+원문: https://nextjs.org/docs/app/guides/backend-for-frontend
+버전: 16.1.6
+---
 
-**문서 버전:** 16.1.2
-**최종 업데이트:** 2025-10-17
+# Next.js를 프론트엔드의 백엔드로 사용하는 방법
 
 ## 개요
 

@@ -1,7 +1,9 @@
-# 'use server' 지시어
+---
+원문: https://nextjs.org/docs/app/api-reference/directives/use-server
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-06-16
+# 'use server' 지시어
 
 ## 개요
 `use server` 지시어는 함수나 파일이 **서버 사이드**에서 실행되도록 지정합니다. 다음과 같이 적용할 수 있습니다:

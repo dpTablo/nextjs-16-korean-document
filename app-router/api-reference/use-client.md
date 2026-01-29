@@ -1,7 +1,9 @@
-# 'use client' 지시어
+---
+원문: https://nextjs.org/docs/app/api-reference/directives/use-client
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-06-16
+# 'use client' 지시어
 
 ## 개요
 `'use client'` 지시어는 컴포넌트가 **클라이언트 사이드**에서 렌더링되도록 진입점을 선언합니다. 다음이 필요한 인터랙티브 UI를 만들 때 사용합니다:

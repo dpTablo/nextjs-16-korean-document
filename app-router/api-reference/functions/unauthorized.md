@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/unauthorized
+버전: 16.1.6
+---
+
 # unauthorized
 
 ## 개요

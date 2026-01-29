@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/server-actions
+버전: 16.1.6
+---
+
 # Server Actions 고급 패턴
 
 ## 개요

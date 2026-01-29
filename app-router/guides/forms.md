@@ -1,7 +1,9 @@
-# Server Actions로 폼 만들기
+---
+원문: https://nextjs.org/docs/app/guides/forms
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-10-09
+# Server Actions로 폼 만들기
 
 ## 개요
 

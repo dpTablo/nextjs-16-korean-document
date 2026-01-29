@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/ci-build-caching
+버전: 16.1.6
+---
+
 # CI Build Caching
 
 CI 환경에서 빌드 캐시를 구성하여 Next.js 빌드 성능을 개선하는 방법을 알아봅니다.
@@ -538,11 +543,3 @@ path: |
 - [Debugging](./debugging.md) - 디버깅
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-15
-
-**참고 자료:**
-- [GitHub Actions Cache](https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows)
-- [GitLab CI/CD Caching](https://docs.gitlab.com/ee/ci/caching/)
-- [CircleCI Caching](https://circleci.com/docs/caching/)

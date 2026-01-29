@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+버전: 16.1.6
+---
+
 # generateMetadata
 
 `generateMetadata` 함수는 Next.js App Router에서 동적 메타데이터를 정의하는 방법입니다. 라우트 매개변수, 외부 데이터, 부모 세그먼트의 메타데이터에 따라 동적으로 메타데이터를 생성할 수 있습니다.

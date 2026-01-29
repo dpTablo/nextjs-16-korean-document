@@ -1,6 +1,9 @@
-# 셀프 호스팅
+---
+원문: https://nextjs.org/docs/app/guides/self-hosting
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# 셀프 호스팅
 
 ## 핵심 인프라 설정
 

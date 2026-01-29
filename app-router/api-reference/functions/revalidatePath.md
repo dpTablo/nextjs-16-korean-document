@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/api-reference/functions/revalidatePath
+버전: 16.1.6
+---
+
 # revalidatePath
 
 `revalidatePath`는 특정 경로에 대해 [캐시된 데이터](../../guides/caching.md)를 온디맨드 방식으로 무효화합니다.

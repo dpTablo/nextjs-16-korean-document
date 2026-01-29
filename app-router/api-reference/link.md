@@ -1,6 +1,9 @@
-# Link 컴포넌트 API 참조
+---
+원문: https://nextjs.org/docs/app/api-reference/components/link
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
+# Link 컴포넌트 API 참조
 
 ## 개요
 `<Link>`는 HTML `<a>` 요소를 확장하여 Next.js에서 라우트 간 프리페칭 및 클라이언트 사이드 네비게이션을 제공하는 React 컴포넌트입니다.

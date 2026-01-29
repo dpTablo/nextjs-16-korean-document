@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/json-ld
+버전: 16.1.6
+---
+
 # JSON-LD
 
 검색 엔진이 페이지 콘텐츠를 이해할 수 있도록 구조화된 데이터를 추가하는 방법을 알아봅니다.
@@ -693,11 +698,3 @@ const recipeJsonLd = {
 - [robots.txt](../api-reference/file-conventions/metadata/robots.md) - 로봇 설정
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-15
-
-**참고 자료:**
-- [Schema.org](https://schema.org/)
-- [Google Structured Data](https://developers.google.com/search/docs/advanced/structured-data)
-- [schema-dts](https://www.npmjs.com/package/schema-dts)

@@ -1,7 +1,9 @@
-# 이미지 최적화
+---
+원문: https://nextjs.org/docs/app/getting-started/image-optimization
+버전: 16.1.6
+---
 
-**버전:** 16.1.1
-**최종 업데이트:** 2025-06-11
+# 이미지 최적화
 
 ## 개요
 

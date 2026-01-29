@@ -1,3 +1,8 @@
+---
+원문: https://nextjs.org/docs/app/guides/prefetching
+버전: 16.1.6
+---
+
 # Prefetching (프리페칭)
 
 Next.js에서 라우트 간 탐색을 즉각적으로 느껴지게 만드는 프리페칭 전략을 알아봅니다.
@@ -533,6 +538,3 @@ export function CacheTracker() {
 - [useRouter](../api-reference/functions/useRouter.md) - Router API 레퍼런스
 
 ---
-
-**문서 버전:** Next.js 16.1.1
-**최종 업데이트:** 2026-01-11
